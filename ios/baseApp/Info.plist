@@ -66,6 +66,21 @@
 		<string>Roboto-Regular.ttf</string>
 		<string>VolvoBroad.TTF</string>
 		<string>Arial-MT.ttf</string>
+		<string>Panefresco1wtItalic_1.ttf</string>
+		<string>Panefresco1wtRegular_1.ttf</string>
+		<string>Panefresco250wtItalic_1.ttf</string>
+		<string>Panefresco250wtRegular_1.ttf</string>
+		<string>Panefresco400wtItalic_1.ttf</string>
+		<string>Panefresco400wtRegular_1.ttf</string>
+		<string>Panefresco500wtItalic_1.ttf</string>
+		<string>Panefresco500wtRegular_1.ttf</string>
+		<string>Panefresco600wt-Regular_1.ttf</string>
+		<string>Panefresco600wtItalic_1.ttf</string>
+		<string>Panefresco750wtItalic_1.ttf</string>
+		<string>Panefresco800wtItalic_1.ttf</string>
+		<string>Panefresco800wtRegular_1.ttf</string>
+		<string>Panefresco999wt-Italic_1.ttf</string>
+		<string>Panefresco999wtRegular_1.ttf</string>
 	</array>
 </dict>
 </plist>

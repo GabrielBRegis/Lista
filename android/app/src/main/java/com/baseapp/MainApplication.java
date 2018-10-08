@@ -3,6 +3,8 @@ package com.baseapp;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.BV.LinearGradient.LinearGradientPackage;
+import com.wix.interactable.Interactable;
 import com.lugg.ReactNativeConfig.ReactNativeConfigPackage;
 import com.i18n.reactnativei18n.ReactNativeI18n;
 import com.oblador.vectoricons.VectorIconsPackage;
@@ -26,8 +28,8 @@ public class MainApplication extends Application implements ReactApplication {
 
     @Override
     protected List<ReactPackage> getPackages() {
-      return Arrays.<ReactPackage>asList(new SQLitePluginPackage(), new MainReactPackage(),
-          new ReactNativeConfigPackage(), new ReactNativeI18n(), new VectorIconsPackage());
+      return Arrays.<ReactPackage>asList(new SQLitePluginPackage(), new MainReactPackage(), new LinearGradientPackage(),
+          new Interactable(), new ReactNativeConfigPackage(), new ReactNativeI18n(), new VectorIconsPackage());
     }
 
     @Override

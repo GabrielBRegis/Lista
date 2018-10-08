@@ -68,4 +68,7 @@ const mapDispatchToProps = (dispatch: Dispatch<RootState>): Pick<Launch.Props, '
     };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(LaunchScreen);
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(LaunchScreen);

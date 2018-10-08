@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -59,6 +58,23 @@
 		C2178B7003F54D729396FA38 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F8D2C72DAF64CCEA05A1AA9 /* MaterialCommunityIcons.ttf */; };
 		D9DA3F37DB514AD685228115 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55A48096EDED47B2881E56D4 /* Entypo.ttf */; };
 		F14D02A489664EC1B419F68A /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E7ED383002E4D6CA05A439E /* Zocial.ttf */; };
+		A7C5F1EA1DE347D0B633A5DD /* libInteractable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5160A41B594EDFBE465ABA /* libInteractable.a */; };
+		E8CAF5E5F7034209BB9B2422 /* libBVLinearGradient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB7EA9BCCA241A888246133 /* libBVLinearGradient.a */; };
+		A2A348E9ABA547F4910EFAE7 /* Panefresco1wtItalic_1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94A9EB3C0CC04B2FA5E69459 /* Panefresco1wtItalic_1.ttf */; };
+		6F94772E77C2458AB1088D70 /* Panefresco1wtRegular_1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EE0061D518D4B6E9F938902 /* Panefresco1wtRegular_1.ttf */; };
+		B4A3BA78E89746508E2C3271 /* Panefresco250wtItalic_1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F06C22ADC3E84875998739DF /* Panefresco250wtItalic_1.ttf */; };
+		FF7A8F4BDA624977918A3142 /* Panefresco250wtRegular_1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F121E40F3414AB0BBEF94D4 /* Panefresco250wtRegular_1.ttf */; };
+		0792F63EC7E64E098CC8BEA7 /* Panefresco400wtItalic_1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B712EEE1551A43ECA84631D1 /* Panefresco400wtItalic_1.ttf */; };
+		D993FE822A9B4CEF82E76153 /* Panefresco400wtRegular_1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A233535475043ABAFCB6EB4 /* Panefresco400wtRegular_1.ttf */; };
+		C0D0E45295294DA4B8BD2781 /* Panefresco500wtItalic_1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CB30C3F46A34984AFB36A07 /* Panefresco500wtItalic_1.ttf */; };
+		8F0F736B662141598CF6CE2F /* Panefresco500wtRegular_1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A57AAF677B2460296105955 /* Panefresco500wtRegular_1.ttf */; };
+		116743E155164BE294F05DA6 /* Panefresco600wt-Regular_1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19ADA419CC554642A1A7CA75 /* Panefresco600wt-Regular_1.ttf */; };
+		565E4BFBB60E4A6D878066D9 /* Panefresco600wtItalic_1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB4C63AE94A24919BAD5F7B8 /* Panefresco600wtItalic_1.ttf */; };
+		33AB9A12C34C4F84B6A38DD6 /* Panefresco750wtItalic_1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CDCF70C545E4F9DACF859D7 /* Panefresco750wtItalic_1.ttf */; };
+		93BA591B69074CB29DDC3F54 /* Panefresco800wtItalic_1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21B0F87EB1BE4F7DAC720567 /* Panefresco800wtItalic_1.ttf */; };
+		DA5BF695696542BFBCFBE20B /* Panefresco800wtRegular_1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5719CC4AC2848B3B29C937A /* Panefresco800wtRegular_1.ttf */; };
+		6F7E9DC841824487B3E7E8A3 /* Panefresco999wt-Italic_1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F20B9DB8F68B44EFAB5101D9 /* Panefresco999wt-Italic_1.ttf */; };
+		B11FF204F88C46CAA762EBE3 /* Panefresco999wtRegular_1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2646AEBD497F4AF49523B106 /* Panefresco999wtRegular_1.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -409,6 +425,25 @@
 		B1CCC93780A54FA58EB26CF5 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		B704A8B1049943B1993586DF /* RNI18n.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNI18n.xcodeproj; path = "../node_modules/react-native-i18n/RNI18n.xcodeproj"; sourceTree = "<group>"; };
 		D1E149118DB74EA4AEFCC073 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		942A1E12D1864CBAA6F138A7 /* Interactable.xcodeproj */ = {isa = PBXFileReference; name = "Interactable.xcodeproj"; path = "../node_modules/react-native-interactable/ios/Interactable.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		FC5160A41B594EDFBE465ABA /* libInteractable.a */ = {isa = PBXFileReference; name = "libInteractable.a"; path = "libInteractable.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		AB1179280B574FFF8457A265 /* BVLinearGradient.xcodeproj */ = {isa = PBXFileReference; name = "BVLinearGradient.xcodeproj"; path = "../node_modules/react-native-linear-gradient/BVLinearGradient.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		8BB7EA9BCCA241A888246133 /* libBVLinearGradient.a */ = {isa = PBXFileReference; name = "libBVLinearGradient.a"; path = "libBVLinearGradient.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		94A9EB3C0CC04B2FA5E69459 /* Panefresco1wtItalic_1.ttf */ = {isa = PBXFileReference; name = "Panefresco1wtItalic_1.ttf"; path = "../fonts/Panefresco1wtItalic_1.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7EE0061D518D4B6E9F938902 /* Panefresco1wtRegular_1.ttf */ = {isa = PBXFileReference; name = "Panefresco1wtRegular_1.ttf"; path = "../fonts/Panefresco1wtRegular_1.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F06C22ADC3E84875998739DF /* Panefresco250wtItalic_1.ttf */ = {isa = PBXFileReference; name = "Panefresco250wtItalic_1.ttf"; path = "../fonts/Panefresco250wtItalic_1.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2F121E40F3414AB0BBEF94D4 /* Panefresco250wtRegular_1.ttf */ = {isa = PBXFileReference; name = "Panefresco250wtRegular_1.ttf"; path = "../fonts/Panefresco250wtRegular_1.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B712EEE1551A43ECA84631D1 /* Panefresco400wtItalic_1.ttf */ = {isa = PBXFileReference; name = "Panefresco400wtItalic_1.ttf"; path = "../fonts/Panefresco400wtItalic_1.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4A233535475043ABAFCB6EB4 /* Panefresco400wtRegular_1.ttf */ = {isa = PBXFileReference; name = "Panefresco400wtRegular_1.ttf"; path = "../fonts/Panefresco400wtRegular_1.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2CB30C3F46A34984AFB36A07 /* Panefresco500wtItalic_1.ttf */ = {isa = PBXFileReference; name = "Panefresco500wtItalic_1.ttf"; path = "../fonts/Panefresco500wtItalic_1.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4A57AAF677B2460296105955 /* Panefresco500wtRegular_1.ttf */ = {isa = PBXFileReference; name = "Panefresco500wtRegular_1.ttf"; path = "../fonts/Panefresco500wtRegular_1.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		19ADA419CC554642A1A7CA75 /* Panefresco600wt-Regular_1.ttf */ = {isa = PBXFileReference; name = "Panefresco600wt-Regular_1.ttf"; path = "../fonts/Panefresco600wt-Regular_1.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CB4C63AE94A24919BAD5F7B8 /* Panefresco600wtItalic_1.ttf */ = {isa = PBXFileReference; name = "Panefresco600wtItalic_1.ttf"; path = "../fonts/Panefresco600wtItalic_1.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8CDCF70C545E4F9DACF859D7 /* Panefresco750wtItalic_1.ttf */ = {isa = PBXFileReference; name = "Panefresco750wtItalic_1.ttf"; path = "../fonts/Panefresco750wtItalic_1.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		21B0F87EB1BE4F7DAC720567 /* Panefresco800wtItalic_1.ttf */ = {isa = PBXFileReference; name = "Panefresco800wtItalic_1.ttf"; path = "../fonts/Panefresco800wtItalic_1.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B5719CC4AC2848B3B29C937A /* Panefresco800wtRegular_1.ttf */ = {isa = PBXFileReference; name = "Panefresco800wtRegular_1.ttf"; path = "../fonts/Panefresco800wtRegular_1.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F20B9DB8F68B44EFAB5101D9 /* Panefresco999wt-Italic_1.ttf */ = {isa = PBXFileReference; name = "Panefresco999wt-Italic_1.ttf"; path = "../fonts/Panefresco999wt-Italic_1.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2646AEBD497F4AF49523B106 /* Panefresco999wtRegular_1.ttf */ = {isa = PBXFileReference; name = "Panefresco999wtRegular_1.ttf"; path = "../fonts/Panefresco999wtRegular_1.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -446,6 +481,8 @@
 				08ADFE104F7043AB95BC8011 /* libjschelpers.a in Frameworks */,
 				5F1DAFE9209D4C53894AE382 /* libReactNativeConfig.a in Frameworks */,
 				9403B48363EB49D0A327033C /* libSQLite.a in Frameworks */,
+				A7C5F1EA1DE347D0B633A5DD /* libInteractable.a in Frameworks */,
+				E8CAF5E5F7034209BB9B2422 /* libBVLinearGradient.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,6 +641,21 @@
 				99493081A12B4A20BC247BC8 /* Roboto-Regular.ttf */,
 				3BEFFB73DEA840A1B9F4DBA9 /* VolvoBroad.TTF */,
 				25A2E57612BF453EBE54399A /* Arial-MT.ttf */,
+				94A9EB3C0CC04B2FA5E69459 /* Panefresco1wtItalic_1.ttf */,
+				7EE0061D518D4B6E9F938902 /* Panefresco1wtRegular_1.ttf */,
+				F06C22ADC3E84875998739DF /* Panefresco250wtItalic_1.ttf */,
+				2F121E40F3414AB0BBEF94D4 /* Panefresco250wtRegular_1.ttf */,
+				B712EEE1551A43ECA84631D1 /* Panefresco400wtItalic_1.ttf */,
+				4A233535475043ABAFCB6EB4 /* Panefresco400wtRegular_1.ttf */,
+				2CB30C3F46A34984AFB36A07 /* Panefresco500wtItalic_1.ttf */,
+				4A57AAF677B2460296105955 /* Panefresco500wtRegular_1.ttf */,
+				19ADA419CC554642A1A7CA75 /* Panefresco600wt-Regular_1.ttf */,
+				CB4C63AE94A24919BAD5F7B8 /* Panefresco600wtItalic_1.ttf */,
+				8CDCF70C545E4F9DACF859D7 /* Panefresco750wtItalic_1.ttf */,
+				21B0F87EB1BE4F7DAC720567 /* Panefresco800wtItalic_1.ttf */,
+				B5719CC4AC2848B3B29C937A /* Panefresco800wtRegular_1.ttf */,
+				F20B9DB8F68B44EFAB5101D9 /* Panefresco999wt-Italic_1.ttf */,
+				2646AEBD497F4AF49523B106 /* Panefresco999wtRegular_1.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -645,6 +697,8 @@
 				B704A8B1049943B1993586DF /* RNI18n.xcodeproj */,
 				64A9CC7E5B774B3496B3A22E /* ReactNativeConfig.xcodeproj */,
 				A326297DEF4E40C6B4C351D3 /* SQLite.xcodeproj */,
+				942A1E12D1864CBAA6F138A7 /* Interactable.xcodeproj */,
+				AB1179280B574FFF8457A265 /* BVLinearGradient.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -1245,6 +1299,21 @@
 				61B03563173B41D1868CA064 /* Roboto-Regular.ttf in Resources */,
 				BF892E544AE145A8B978D5CA /* VolvoBroad.TTF in Resources */,
 				62FA91BEDE8345B393066166 /* Arial-MT.ttf in Resources */,
+				A2A348E9ABA547F4910EFAE7 /* Panefresco1wtItalic_1.ttf in Resources */,
+				6F94772E77C2458AB1088D70 /* Panefresco1wtRegular_1.ttf in Resources */,
+				B4A3BA78E89746508E2C3271 /* Panefresco250wtItalic_1.ttf in Resources */,
+				FF7A8F4BDA624977918A3142 /* Panefresco250wtRegular_1.ttf in Resources */,
+				0792F63EC7E64E098CC8BEA7 /* Panefresco400wtItalic_1.ttf in Resources */,
+				D993FE822A9B4CEF82E76153 /* Panefresco400wtRegular_1.ttf in Resources */,
+				C0D0E45295294DA4B8BD2781 /* Panefresco500wtItalic_1.ttf in Resources */,
+				8F0F736B662141598CF6CE2F /* Panefresco500wtRegular_1.ttf in Resources */,
+				116743E155164BE294F05DA6 /* Panefresco600wt-Regular_1.ttf in Resources */,
+				565E4BFBB60E4A6D878066D9 /* Panefresco600wtItalic_1.ttf in Resources */,
+				33AB9A12C34C4F84B6A38DD6 /* Panefresco750wtItalic_1.ttf in Resources */,
+				93BA591B69074CB29DDC3F54 /* Panefresco800wtItalic_1.ttf in Resources */,
+				DA5BF695696542BFBCFBE20B /* Panefresco800wtRegular_1.ttf in Resources */,
+				6F7E9DC841824487B3E7E8A3 /* Panefresco999wt-Italic_1.ttf in Resources */,
+				B11FF204F88C46CAA762EBE3 /* Panefresco999wtRegular_1.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1373,12 +1442,16 @@
 					"$(SRCROOT)/../node_modules/react-native-i18n/RNI18n",
 					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
 					"$(SRCROOT)/../node_modules/react-native-sqlite-storage/src/ios",
+					"$(SRCROOT)/../node_modules/react-native-interactable/lib/ios/Interactable",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 				);
 				INFOPLIST_FILE = baseAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1407,12 +1480,16 @@
 					"$(SRCROOT)/../node_modules/react-native-i18n/RNI18n",
 					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
 					"$(SRCROOT)/../node_modules/react-native-sqlite-storage/src/ios",
+					"$(SRCROOT)/../node_modules/react-native-interactable/lib/ios/Interactable",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 				);
 				INFOPLIST_FILE = baseAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1442,6 +1519,8 @@
 					"$(SRCROOT)/../node_modules/react-native-i18n/RNI18n",
 					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
 					"$(SRCROOT)/../node_modules/react-native-sqlite-storage/src/ios",
+					"$(SRCROOT)/../node_modules/react-native-interactable/lib/ios/Interactable",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 				);
 				INFOPLIST_FILE = baseApp/Info.plist;
 				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
@@ -1469,6 +1548,8 @@
 					"$(SRCROOT)/../node_modules/react-native-i18n/RNI18n",
 					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
 					"$(SRCROOT)/../node_modules/react-native-sqlite-storage/src/ios",
+					"$(SRCROOT)/../node_modules/react-native-interactable/lib/ios/Interactable",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 				);
 				INFOPLIST_FILE = baseApp/Info.plist;
 				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
@@ -1503,11 +1584,15 @@
 					"$(SRCROOT)/../node_modules/react-native-i18n/RNI18n",
 					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
 					"$(SRCROOT)/../node_modules/react-native-sqlite-storage/src/ios",
+					"$(SRCROOT)/../node_modules/react-native-interactable/lib/ios/Interactable",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 				);
 				INFOPLIST_FILE = "baseApp-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1546,11 +1631,15 @@
 					"$(SRCROOT)/../node_modules/react-native-i18n/RNI18n",
 					"$(SRCROOT)/../node_modules/react-native-config/ios/ReactNativeConfig",
 					"$(SRCROOT)/../node_modules/react-native-sqlite-storage/src/ios",
+					"$(SRCROOT)/../node_modules/react-native-interactable/lib/ios/Interactable",
+					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
 				);
 				INFOPLIST_FILE = "baseApp-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1593,6 +1682,8 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.baseApp-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1617,6 +1708,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",

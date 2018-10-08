@@ -2,10 +2,13 @@ import * as React from 'react';
 import { Animated, Image, TextInput, View, ViewStyle, ImageRequireSource } from 'react-native';
 import styles from './FloatingLabelInputStyles';
 import { TextInputMask } from 'react-native-masked-text';
+import { Colors } from '../../Themes';
 
 export interface Props {
     label: string;
     value?: string;
+    error?: string | null;
+    onFocus?: () => void;
     onChangeText?: (text: string) => void;
     keyboardType?: 'default' | 'email-address' | 'numeric' | 'phone-pad';
     maxLength?: number;
@@ -21,6 +24,7 @@ export interface Props {
     labelFocusedStyle?: ViewStyle;
     inputStyle?: ViewStyle;
     isFocused?: boolean;
+    returnKeyType?: string;
 }
 
 export interface State {
@@ -76,9 +80,7 @@ export default class FloatingLabelInput extends React.Component<Props, State> {
 
     mapTextStyle: any = () => {
         if (this.props.icon) {
-            return this.state.isFocused
-                ? [styles.labelStyleFocused, this.props.labelFocusedStyle]
-                : [styles.labelStyleBlur, this.props.labelBlurStyle];
+            return this.state.isFocused ? [styles.labelStyleFocused, this.props.labelFocusedStyle] : [styles.labelStyleBlur, this.props.labelBlurStyle];
         } else {
             return this.state.isFocused
                 ? [styles.labelStyleFocused, this.props.labelFocusedStyle, styles.labelStyleWithoutMarginLeft]
@@ -98,13 +100,19 @@ export default class FloatingLabelInput extends React.Component<Props, State> {
         const { label, icon, mask, isFieldEditable, autoCapitalize, ...props } = this.props;
         return (
             <View style={[styles.floatingLabelStyle, this.props.viewStyle]}>
-                {icon ? (
-                    <Image style={!this.props.iconStyle ? styles.iconStyle : [styles.iconStyle, this.props.iconStyle]} source={icon} />
-                ) : (
-                    <View />
-                )}
+                {icon ? <Image style={!this.props.iconStyle ? styles.iconStyle : [styles.iconStyle, this.props.iconStyle]} source={icon} /> : <View />}
 
-                <Animated.Text style={this.mapTextStyle()}>{label}</Animated.Text>
+                <Animated.Text
+                    style={[
+                        this.mapTextStyle(),
+                        this.props.error
+                            ? {
+                                  color: Colors.colors.waterMelon
+                              }
+                            : {}
+                    ]}>
+                    {this.props.error ? this.props.error : label}
+                </Animated.Text>
 
                 {mask ? (
                     <TextInputMask
